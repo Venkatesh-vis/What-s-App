@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's App</title>
+    <style>
+        .search {
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            height: 70px;
+            width: 31.5%;
+            background-color: white;
+        }
+
+        .dp1 {
+            background-color: #f0f2f5;
+            position: relative;
+            top: 10px;
+
+        }
+
+        .chat {
+            height: 715px;
+            width: 33%;
+
+            overflow: auto;
+            display: inline-block;
+        }
+        /* .chat::-webkit-scrollbar {
+                display: none;
+            } */
+
+        .dp,
+        .comm,
+        .status,
+        .channel,
+        .nchat,
+        .menu,
+        .dp1,
+        .ocdp,
+        .emj,
+        .mic {
+            border-radius: 50%;
+        }
+
+        .menu {
+            position: relative;
+            left: 340px;
+            top: 8px;
+        }
+
+        .nchat,
+        .channel,
+        .status,
+        .comm,
+        .sea {
+            position: relative;
+            left: 250px;
+        }
+
+        .oc {
+            display: inline-block;
+            height: 700px;
+            width: 999px;
+            background-image: url("https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .vc {
+            position: absolute;
+            left: 870px;
+            top: 25px;
+        }
+
+        .sea {
+            position: absolute;
+            left: 920px;
+            top: 25px;
+        }
+
+        .cmenu {
+            position: absolute;
+            left: 960px;
+            top: 25px;
+        }
+
+        .cd {
+            position: fixed;
+            top: 15px;
+            background-color: #075E54;
+        }
+
+        .p1 {
+            border-radius: 20px;
+            width: 55%;
+        }
+
+        .p2 {
+            border-radius: 20px;
+            width: 55%;
+        }
+
+        .cdes {
+            position: fixed;
+            width: 100%;
+            background-color: #075e54;
+        }
+
+        .oc {
+            overflow: auto;
+        }
+        /* .oc::-webkit-scrollbar {
+                display: none;
+            } */
+
+        .ocdp {
+            position: relative;
+            top: 10px;
+            left: 5px;
+        }
+
+        .ft {
+            position: fixed;
+            width: 999px;
+            border: 2px solid black;
+            height: 50px;
+            bottom: 12px;
+            background-color: #F0F2F5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chat">
+        <div class="search">
+            <img style="position: absolute; left: 10px; top: 5px;" class="dp" src="./Assets/Ganesha.jpg" alt=""
+                height="45" width="45">
+            <img class="comm" style="position: relative; left: 330px; top: 15px; "
+                src="https://png.pngtree.com/png-vector/20191009/ourmid/pngtree-group-icon-png-image_1796653.jpg" alt=""
+                height="30" width="30">
+            <img class="status" style="position: relative; left: 335px; top: 15px;" src="./Assets/whatsapp-status.svg"
+                alt="" height="30" width="30">
+            <img class="nchat" style="position: relative; left: 340px; top: 15px;"
+                src="https://cdn.iconscout.com/icon/free/png-256/free-whatsapp-new-chat-4941784-4109184.png?f=webp"
+                alt="" height="30" width="30">
+            <img class="menu" src="https://static.thenounproject.com/png/2854151-200.png" alt="" height="20" width="20">
+        </div>
+        <div style="margin-top: 50px;">
+            <input
+                style="border-radius: 5px; width: 31%; position: fixed; top: 55px; height: 30px; background-color: white; z-index: 10;"
+                type="text" name="" id="" placeholder="Search or start new chat">
+        </div>
+        <div style="margin-top: 75px;">
+            <img class="dp1" src="https://dpemoji.com/wp-content/uploads/2023/10/7-4-500x500.jpg" alt="" height="50"
+                width="50">
+            <p style="display: inline-block; position: relative; top: -20px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1"
+                src="https://cdn4.sharechat.com/img_810045_a3776de_1675074807079_sc.jpg?tenant=sc&referrer=pwa-sharechat-service&f=079_sc.jpg"
+                alt="" height="50" width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1"
+                src="https://e1.pxfuel.com/desktop-wallpaper/504/499/desktop-wallpaper-girl-whatsapp-dp-alone-girls-whatsapp-dp.jpg"
+                alt="" height="50" width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1" src="https://beingselfish.in/wp-content/uploads/2023/07/love-dp00094.jpg" alt=""
+                height="50" width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1" src="https://dpwalay.com/wp-content/uploads/2023/09/DP-images-2.jpg" alt="" height="50"
+                width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1"
+                src="https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="" height="50" width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1"
+                src="https://images.pexels.com/photos/707046/pexels-photo-707046.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="" height="50" width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1"
+                src="https://images.pexels.com/photos/635499/pexels-photo-635499.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="" height="50" width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1"
+                src="https://images.pexels.com/photos/210237/pexels-photo-210237.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="" height="50" width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1"
+                src="https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="" height="50" width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1" src="https://dpemoji.com/wp-content/uploads/2023/10/7-4-500x500.jpg" alt="" height="50"
+                width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1" src="https://dpemoji.com/wp-content/uploads/2023/10/7-4-500x500.jpg" alt="" height="50"
+                width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1" src="https://dpemoji.com/wp-content/uploads/2023/10/7-4-500x500.jpg" alt="" height="50"
+                width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1" src="https://dpemoji.com/wp-content/uploads/2023/10/7-4-500x500.jpg" alt="" height="50"
+                width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+        <hr>
+        <div style="margin-top: 5px;">
+            <img class="dp1" src="https://dpemoji.com/wp-content/uploads/2023/10/7-4-500x500.jpg" alt="" height="50"
+                width="50">
+            <p style="display: inline-block; position: relative; top: -25px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 5px; left: -70px;">Messages</p>
+        </div>
+    </div>
+    <div class="oc">
+        <div class="cdes" style="position: fixed; top: 0px; z-index: 10; ">
+            <img class="ocdp" src="https://dpwalay.com/wp-content/uploads/2023/09/DP-images-2.jpg" alt="" height="50"
+                width="50">
+            <p style="display: inline-block; position: relative; top: -20px; left: 10px;">1R-Offline</p>
+            <p style="display: inline-block; position: relative; top: 2px; left: -65px;"> Group Description</p>
+            <img class="vc" src="./Assets/camera-video-fill.svg" alt="" height="30" width="30">
+            <img class="sea" src="./Assets/search.svg" alt="" height="25" width="25">
+            <img class="cmenu" src="https://static.thenounproject.com/png/2854151-200.png" alt="" height="25"
+                width="25">
+        </div>
+        <div class="ch">
+            <div>
+                <h4
+                    style="position: sticky; top: 60px; display: inline-block; left: 50%; background-color: #FEFEFE; padding: 5px; border-radius: 10px; z-index: 5; height: 20px; width: 40px; ">
+                    8-feb</h4>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+            </div>
+            <div>
+                <h4
+                    style="position: sticky; top: 60px; display: inline-block; left: 50%; background-color: #FEFEFE; padding: 5px; border-radius: 10px; z-index: 5; height: 20px; width: 70px; ">
+                    Yesterday</h4>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+            </div>
+            <div>
+                <h4
+                    style="position: sticky; top: 60px; display: inline-block; left: 50%; background-color: #FEFEFE; padding: 10px; border-radius: 10px; z-index: 5; height: 20px; ">
+                    Today</h4>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+                <div class="p1">
+                    <p
+                        style="position: relative; top: 5px; height: fit-content; background-color: #dcf8c6; border-radius: 10px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit animi nulla sed
+                        aliquid
+                        eum velit reiciendis vero autem sint pariatur ad, corrupti blanditiis accusamus deserunt rem.
+                        Qui,
+                        ea harum.</p>
+                </div>
+                <div class="p2">
+                    <p
+                        style="position: relative; top: px; background-color: #dcf8c6; left: 420px; border-radius: 15px; height: fit-content;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minus, vel autem fugit quo voluptate nemo, recusandae sapiente cupiditate et voluptas vitae
+                        impedit
+                        esse natus temporibus voluptates qui illum ab corporis?</p>
+                </div>
+            </div>
+            <div class="ft">
+                <img class="emj" style="position: relative; top: 10px; left: 5px;"
+                    src="https://i.pinimg.com/474x/29/26/1f/29261fb7aed8468937d298a21242afae.jpg" alt="" height="30"
+                    width="30">
+                <img class="emj" style="position: relative; top: 10px; left: 5px;" src="./Assets/plus-circle-fill.svg"
+                    alt="" height="30" width="30">
+                <input
+                    style="width: 88%; display: inline-block; position: relative; bottom: 2px; left: 5px; padding: 1px; height: 47px; border-radius: 5px; background-color: #FFFFFF;"
+                    type="text" name="" id="" placeholder="Type a message">
+                <img class="mic" style="display: inline-block; position: relative; top: 10px; left: 10px;"
+                    src="data:image/png;base64,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"
+                    alt="" height="30" width="25">
+            </div>
+        </div>
+</body>
+
+</html>
